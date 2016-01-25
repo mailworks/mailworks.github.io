@@ -4,7 +4,7 @@
 <li>resizableImageWithCapInsets:resizingMode:`手动设置图片的拉伸区域了，这极大的方便了我们再IB中使用可拉伸的图片资源。具体如何使用可见下面参考资料，有两个需要注意的地方：</li>
 </ul>
 <p>###Slicing Handle所划分的四个区域<br>在Asset Catalog中对某一张图片启动Image Slicing后（以启用Horizontal Slices为例）会自动出现3个可拖拽的手柄，并将整张图片划分为4个区域，如图：</p>
-<p><img src="/images/image1.png" alt="Image Slicing area"></p>
+<p><img src="/static/images/image1.png" alt="Image Slicing area"></p>
 <p>每个区域的作用:</p>
 <ol>
 <li>左侧拉伸不变区域，图片横向拉伸时该区域不变化</li>
@@ -14,11 +14,11 @@
 </ol>
 <p>###ResizingMode 填充模式</p>
 <p>设置好图片的拉伸区域后，在实际拉伸过程中只会拉伸区域3，并用区域2的采样按照设置的填充模式来填充拉伸区域3，<br>在Xcode中Attributes Inspector中可配置图片的填充模式。</p>
-<p><img src="/images/image2.png" alt="Image Slicing Mode"></p>
+<p><img src="/static/images/image2.png" alt="Image Slicing Mode"></p>
 <p>两种填充模式<br>Tiles：平铺，像铺地板砖一样平铺地面</p>
-<p><img src="/images/image4.png" alt="Image Slicing Titles Mode"></p>
+<p><img src="/static/images/image4.png" alt="Image Slicing Titles Mode"></p>
 <p>Stretch：拉伸填充</p>
-<p><img src="/images/image3.png" alt="Image Slicing Stretch Mode"></p>
+<p><img src="/static/images/image3.png" alt="Image Slicing Stretch Mode"></p>
 <p>####参考资源</p>
 <ul>
 <li><a href="https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-image_catalog-1.0/chapters/SlicinganImage.html#//apple_ref/doc/uid/TP40013303-CH4-SW1" target="_blank" rel="external">Specifying a Resizable Area of an Image</a></li>
